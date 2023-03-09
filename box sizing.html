@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Box Sizing</title>
+	<style type="text/css">
+		div{
+			box-sizing: border-box;
+		}
+		div.div1{
+			width: 200px;
+			line-height: 20px;
+			border: 5px solid black;
+		}
+		div.div2{
+			width: 200px;
+			height: 200px;
+			padding: 20px;
+			margin: auto;
+			border: 5px solid black;
+		}  
+		img{
+			border: 2px solid black;
+			width: 490px;
+			height: 480px;
+			display: block;
+			margin-top: auto;
+			margin-center: auto;
+		} 
+	</style>
+</head>
+<body>
+	<div class="div1"><p>This container is width 100 px and height 20px</p></div><br>
+	<div class="div2"><p>This larger container is width 100 px and height 200px</p></div><br>
+	<img src="fishy.jpg" alt="image">
+</body>
+</html>
